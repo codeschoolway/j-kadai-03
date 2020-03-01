@@ -10,6 +10,11 @@ a, a:active, a:link, a:visited {
     text-decoration: none;
     color: #0066c0;
 }
+a:hover,
+footer a {
+    text-decoration: underline;
+    color: #C45500;
+}
 h1 {
     margin-bottom: 14px;
     font-weight: 400;
@@ -141,6 +146,20 @@ nav p {
     text-align: center;
     color: #555555;
 }
+.triangle{
+    margin-top: 7px;
+    margin-left: 5px;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid #0066c0;
+    width:0;
+    height: 0;
+  }
+  .triangle:hover {
+      display: block;
+      border-left: 3px solid #6acd77;
+  }
 .footer-nav {
     display: flex;
     justify-content: space-between;
